@@ -65,36 +65,45 @@
                        <a class="nav-link" href="{{ route('galeri.index') }}">Galeri</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#">Kontak</a>
+                       <a class="nav-link" href="{{ route('kontak.index') }}">Kontak</a>
                    </li>
                </ul>
            </div>
        </div>
    </nav>
 
-   <section class="py-5">
+   <section id="profil" class="py-5">
        <div class="container">
            <h1 class="mb-4">Profil MTS Muhammadiyah 3 Kunduran</h1>
            <div class="row">
                <div class="col-md-6">
-                   <img src="img/school-image.jpg" alt="MTS Muhammadiyah 3 Kunduran" class="img-fluid mb-4">
+                   <img src="img/mts.jpg" alt="MTS Muhammadiyah 3 Kunduran" class="img-fluid mb-4">
                </div>
                <div class="col-md-6">
-                   <h2>Sejarah Sekolah</h2>
-                   <p>MTS Muhammadiyah 3 Kunduran didirikan pada tahun 1990 dengan tujuan memberikan pendidikan berkualitas berbasis nilai-nilai Islami. Sekolah ini telah menorehkan banyak prestasi dan menjadi salah satu sekolah terbaik di wilayah Kunduran.</p>
-                   
-                   <h2>Visi dan Misi</h2>
-                   <p><strong>Visi:</strong> Menjadi sekolah unggul yang menghasilkan lulusan berkarakter Islami, berprestasi, dan berwawasan global.</p>
-                   <p><strong>Misi:</strong></p>
+                   <h2>Identitas Satuan Pendidikan</h2>
                    <ul>
-                       <li>Menyelenggarakan pendidikan berkualitas dengan nilai-nilai Islami</li>
-                       <li>Mengembangkan potensi peserta didik secara optimal</li>
-                       <li>Mempersiapkan peserta didik untuk menjadi pemimpin masa depan</li>
-                       <li>Menciptakan lingkungan belajar yang kondusif dan inovatif</li>
+                       <li><strong>Nama:</strong> MTSS Muhammadiyah 3</li>
+                       <li><strong>NPSN:</strong> 20363975</li>
+                       <li><strong>Alamat:</strong> JL. BEJIREJO-KUNDURAN, Bejirejo, Kec. Kunduran, Kab. Blora, Jawa Tengah</li>
+                       <li><strong>Status Sekolah:</strong> Swasta</li>
+                       <li><strong>Naungan:</strong> Kementerian Agama</li>
                    </ul>
 
-                   <h2>Fasilitas Sekolah</h2>
+                   <h2>Dokumen dan Perizinan</h2>
                    <ul>
+                       <li><strong>No. SK. Pendirian:</strong> E-1/89/MPK/VII/1987</li>
+                       <li><strong>Tanggal SK. Pendirian:</strong> 1987-07-20</li>
+                       <li><strong>No. SK. Operasional:</strong> Wk/5.c/34/Pgm/Is/198</li>
+                       <li><strong>Tanggal SK. Operasional:</strong> 1988-05-10</li>
+                       <li><strong>Akreditasi:</strong> B</li>
+                       <li><strong>No. SK. Akreditasi:</strong> 165/BAP-SM/XI/2017</li>
+                       <li><strong>Tanggal SK. Akreditasi:</strong> 09-11-2017</li>
+                   </ul>
+
+                   <h2>Sarana Prasarana</h2>
+                   <ul>
+                       <li>Sumber Listrik: PLN</li>
+                       <li>Akses Internet: Ada</li>
                        <li>Ruang kelas modern dengan teknologi pembelajaran terkini</li>
                        <li>Laboratorium sains dan komputer</li>
                        <li>Perpustakaan dengan koleksi buku yang lengkap</li>

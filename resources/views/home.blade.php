@@ -121,10 +121,10 @@
                         <a class="nav-link" href="{{ route('profil.index') }}">profil</a>
                     </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#">Berita</a>
+                       <a class="nav-link" href="{{ route('berita.index') }}">Berita</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#">Galeri</a>
+                       <a class="nav-link" href="{{ route('galeri.index') }}">Galeri</a>
                    </li>
                    <li class="nav-item">
                        <a class="nav-link" href="#">Kontak</a>
