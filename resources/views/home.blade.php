@@ -121,7 +121,7 @@
                         <a class="nav-link" href="{{ route('profil.index') }}">profil</a>
                     </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="{{ route('berita.show') }}">Berita</a>
+                       <a class="nav-link" href="#">Berita</a>
                    </li>
                    <li class="nav-item">
                        <a class="nav-link" href="#">Galeri</a>

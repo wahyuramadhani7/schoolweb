@@ -53,13 +53,13 @@
            <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav ms-auto">
                    <li class="nav-item">
-                       <a class="nav-link" href="#">Home</a>
+                       <a class="nav-link" href="{{ route('home') }}">Home</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#">Profil</a>
+                       <a class="nav-link" href="{{ route('profil.index') }}">Profil</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="#">Berita</a>
+                       <a class="nav-link" href="">Berita</a>
                    </li>
                    <li class="nav-item">
                        <a class="nav-link" href="#">Galeri</a>
